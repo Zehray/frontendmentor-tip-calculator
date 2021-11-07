@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="logo"><img src="images/logo.svg" alt="logo"></div>
+  <div class="main-card">
+    <div class="input-container">
+      <div class="bill">
+        <div class="label-container">
+          <label for="inp-bill">Bill</label>
+        </div>
+        <div class="input-box">
+          <input class="inp-text" type="text" name="inp-bill" id="inp-bill" placeholder="0">
+        <img src="images/icon-dollar.svg" alt="icon-dollar"></div>
+      </div>
+      <div class="tip">
+        <div class="label-container">
+          <label for="inp-tip">Select Tip %</label>
+          
+        </div>
+        <div class="btn-container">
+          <div class="btn">5%</div>
+          <div class="btn">10%</div>
+          <div class="btn">15%</div>
+          <div class="btn">25%</div>
+          <div class="btn">50%</div>
+          <input class="inp-text" type="text" name="inp-tip" placeholder="Custom">
+        </div>
+      </div>
+      <div class="people">
+        <div class="label-container">
+          <label for="inp-people">Number of People</label>
+        </div>
+        <div class="input-box">
+          <input class="inp-text" type="text" name="inp-people" id="inp-people" placeholder="0">
+        <img src="images/icon-person.svg" alt="icon-person"></div>
+    </div>
+    
+  </div>
+  <div class="green-card">
+    <div class="gr-line-box">
+      <div class="line-box">
+        <div class="title-box">
+          <h1>Tip Amount</h1>
+          <h2>/ person</h2>
+        </div>
+        <div class="result">$4.27</div>
+      </div>
+
+      <div class="line-box">
+        <div class="title-box">
+          <h1>Total</h1>
+          <h2>/ person</h2>
+        </div>
+        <div class="result">$32.79</div>
+      </div>
+    </div>
+    <div class="btn type="reset">reset</div>
+  </div>
+</div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
