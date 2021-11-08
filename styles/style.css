@@ -23,7 +23,7 @@ html, body{
 
 .main-card{
     background-color: white;
-    width: 100%;
+    min-width: 375px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -31,6 +31,7 @@ html, body{
     align-items: center;
     gap: 16px;
     padding: 25px;
+    
 }
 
 .main-card .input-container{
@@ -144,10 +145,14 @@ html, body{
     padding: 10px 0;
 }
 
-@media only screen and (min-width: 1440px) {
+.attribution{
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 1024px) {
 
     .container .main-card{
-        width: 65%;
+        width: 960px;
         flex-direction: row;
         align-items: stretch;
     }
