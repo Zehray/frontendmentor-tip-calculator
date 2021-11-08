@@ -1,5 +1,11 @@
 # Frontend Mentor - Tip calculator app
 
+##This calculator is designed for 
+Desktop: 1440px 
+Mobile: 375px. 
+
+I tried to do it using the "mobile first" method.
+
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
